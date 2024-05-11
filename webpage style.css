@@ -19,9 +19,9 @@ img{
 
 p{
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-color: lightgreen;
+color: rgb(21, 183, 21);
 line-height: 40px;
-background-color: grey;
+background-color: lightyellow;
 background-image: none;
 text-align: center;
 font-size: 35px;
@@ -67,3 +67,28 @@ border: 1px solid black;
 
 
 /* I'm very stuck on how exactly containers work but I've finally learned how the link function along with a few other style changes work and why it didn't work on my last one.*/
+
+h1{
+    text-align: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color:rgb(121, 121, 121);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 15%);
+}
+.navbar li{
+    float: left;
+}
