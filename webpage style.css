@@ -1,0 +1,69 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+img{
+    height: 400px;
+    width: 500px;
+    border: 5px green;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+p{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: lightgreen;
+line-height: 40px;
+background-color: grey;
+background-image: none;
+text-align: center;
+font-size: 35px;
+margin: auto;
+padding: 10px;
+border: 1px solid black;
+}
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: grid;
+}
+
+
+.Box-1{background-color: yellow;}
+.Box-2{background-color: green;}
+.Box-3{background-color: white;}
+.Box-4{background-color: black;}
+
+.Box-1{
+    width: 50px;
+    flex-direction: Grid;
+}
+
+.Box-2{
+    width: 50px;
+    flex-direction: Grid;
+}
+
+.Box-3{
+    width: 50px;
+    flex-direction: Grid;
+}
+
+.Box-4{
+    width: 50px;
+    flex-direction: Grid;
+}
+
+
+/* I'm very stuck on how exactly containers work but I've finally learned how the link function along with a few other style changes work and why it didn't work on my last one.*/
